@@ -1,0 +1,41 @@
+body{
+    background-color: gold;
+}
+
+h1{
+    width:100%;
+    font-family: 'Dancing Script', cursive;
+    background-color: cornsilk;
+}
+
+#show_sketch{
+    float:right;
+    font-family: 'Pacifico', cursive;
+}
+
+p{
+    margin-top: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size:30px;
+    font-style: bold;
+}
+
+#clear{
+    margin-top: 10px;
+    font-family: 'Satisfy', cursive;
+    font-style: bold;
+}
+
+canvas{
+    border: 5px white solid;
+    border-radius: 15px;
+    animation-name:example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count:infinate;
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 38px black;}
+    to{box-shadow:1px 1px 38px white;}
+}
